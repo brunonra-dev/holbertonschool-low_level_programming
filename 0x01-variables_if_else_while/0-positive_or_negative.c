@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
  *main - Print if a number is positive or negative
  *Return: 0
@@ -12,10 +13,10 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n >= 0)
 	{
-		printf(n + "is positive")
+		printf("%d is positive\n", n);
 	} else
 	{
-		printf(n + "is negative")
+		printf("%d is negative\n", n);
 	}
 
 	return (0);
