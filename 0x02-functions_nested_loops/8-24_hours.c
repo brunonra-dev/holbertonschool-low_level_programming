@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *jack_bauer - function that checks for alphabetic character
+ *jack_bauer - function that print 24 hours
  *
  *Return: void
  */
