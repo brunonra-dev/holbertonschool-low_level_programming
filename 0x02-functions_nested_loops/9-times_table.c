@@ -6,17 +6,34 @@
  */
 void times_table(void)
 {
-	int i, n, num;
+	int cel, row, val, val_last, val_first;
 
-	for (n = 0; n < 10; n++)
+	for (row = 0; row < 10; row++)
 	{
-		for (i = 0; i < 10; i++)
+		for (cel = 0; cel < 10; cel++)
 		{
-			num = i * n;
-			_putchar(num + '0');
-			_putchar(',');
-			_putchar('\n');
-			_putchar('\n');
+			val = cel * row;
+			if (val > 9)
+			{
+				if (cel != 0)
+				{
+					_putchar(',');
+					_putchar(' ');
+				}
+				val_last = val % 10;
+				val_first = val / 10;
+				_putchar(val_first + '0');
+				_putchar(val_last + '0');
+			} else
+			{
+				if (cel != 0)
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
+				}
+				_putchar(val + '0');
+			}
 		}
 		_putchar('\n');
 	}
