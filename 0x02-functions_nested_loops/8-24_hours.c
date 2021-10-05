@@ -10,8 +10,12 @@ void jack_bauer(void)
 
 	for (hh = 0; hh < 3; hh++)
 	{
-		for (h = 0; h < 4; h++)
+		for (h = 0; h < 10; h++)
 		{
+			if (hh == 2 && h == 4)
+			{
+				break;
+			}
 			for (mm = 0; mm < 6; mm++)
 			{
 				for (m = 0; m < 10; m++)
