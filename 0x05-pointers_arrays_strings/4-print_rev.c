@@ -1,20 +1,20 @@
 #include "main.h"
 /**
- * _puts - print a string
+ * print_rev - print reverse string
  *
- * @str: string
+ * @s: string
  */
-void _puts(char *str)
+void print_rev(char *s)
 {
 	int len = 0;
 
-	while (str[len] != '\0')
+	while (s[len] != '\0')
 	{
 		len++;
 	}
 	while (len < 0)
 	{
-		_putchar(str[len]);
+		_putchar(s[len]);
 		len--;
 	}
 	_putchar('\n');
