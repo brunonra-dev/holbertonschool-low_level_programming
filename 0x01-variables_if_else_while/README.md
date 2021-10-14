@@ -18,6 +18,7 @@ else
 	printf("%d is negative\n", n);
 }
 ```
+
 Print whether the number stored in the variable n is positive or negative.
 
 1. The last digit
@@ -58,7 +59,7 @@ Prints the alphabet in lowercase, followed by a new line.
 
 3. alphABET
 
-````c
+```c
 char abc = 'a';
 char ABC = 'A';
 
