@@ -36,7 +36,7 @@ gcc $CFILE -o cisfun
 
 4. Hello, puts
 
-Prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
+Prints exactly `"Programming is like building a multilingual puzzle`, followed by a new line.
 
 ```c
 puts("\"Programming is like building a multilingual puzzle");
@@ -66,6 +66,8 @@ printf("Size of a float: %d byte(s)\n", sizeof(float));
 
 Generates the assembly code (Intel syntax) of a C code and save it in an output file.
 
-`gcc -S -masm=intel $CFILE`
+```c
+gcc -S -masm=intel $CFILE
+```
 
 
