@@ -4,7 +4,7 @@
 
 0. Preprocessor
 
-```c
+```bash
 gcc -E $CFILE -o c
 ```
 
@@ -14,7 +14,7 @@ Runs a C file through the preprocessor and save the result into another file.
 
 Script that compiles a C file but does not link.
 
-```c
+```bash
 gcc -c $CFILE
 ```
 
@@ -22,7 +22,7 @@ gcc -c $CFILE
 
 Generates the assembly code of a C code and save it in an output file.
 
-```c
+```bash
 gcc -S $CFILE
 ```
 
@@ -30,7 +30,7 @@ gcc -S $CFILE
 
 Compiles a C file and creates an executable named cisfun.
 
-```c
+```bash
 gcc $CFILE -o cisfun
 ```
 
@@ -66,7 +66,7 @@ printf("Size of a float: %d byte(s)\n", sizeof(float));
 
 Generates the assembly code (Intel syntax) of a C code and save it in an output file.
 
-```c
+```bash
 gcc -S -masm=intel $CFILE
 ```
 
