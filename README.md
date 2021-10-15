@@ -1,28 +1,28 @@
-# holbertonschool-low_level_programming
+# Holbertonschool Low Level Programming
 Holbertonschool low level programming course.
 
-Created by Bruno Rodríguez | [Linkedin](https://www.linkedin.com/in/brunonra/)
-
-## 0x00-hello_world
+0. C - Hello, World
 
 Scripts to compile c files, print strings & size of variables.
 
-## 0x01-variables_if_else_while
+1. C - Variables, if, else, while
 
 If, else, if else, while loop & ascii table.
 
-## 0x02-functions_nested_loops
+2. Functions Nested Loops
 
 Functions without standar libraries, nested loop & arithmetic.
 
-## 0x03-debugging
+3. Debugging
 
 Fixing c files 
 
-## 0x04-more_functions_nested_loops
+4. More Functions Nested Loops
 
 Advanced functions & nested loops
 
-## 0x05-pointers_arrays_strings
+5. Pointers Arrays Strings
 
 Pointers, arrays & strings
+
+Created by Bruno Rodríguez | [Linkedin](https://www.linkedin.com/in/brunonra/)
