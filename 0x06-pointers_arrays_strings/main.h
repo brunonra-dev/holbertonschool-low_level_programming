@@ -1,3 +1,3 @@
 int _putchar(char c);
 char *_strcat(char *dest, char *src);
-void swap_int(int *a, int *b);
+char *_strncat(char *dest, char *src, int n);
