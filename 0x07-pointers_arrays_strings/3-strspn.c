@@ -20,11 +20,11 @@ unsigned int _strspn(char *s, char *accept)
 			{
 				ret++;
 			}
+			if (s[i] == ' ')
+			{
+				break;
+			}
 		}
 	}
-
-	if (s[i] == '\0' && accept[j] == '\0')
-		ret++;
-
 	return (ret);
 }
