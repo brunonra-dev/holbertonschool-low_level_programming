@@ -12,8 +12,7 @@ void print_chessboard(char (*a)[8])
 	{
 		for (row = 0; row < 8; row++)
 		{
-			if (a[col][row] != ' ')
-				_putchar(a[col][row]);
+			_putchar(a[col][row]);
 		}
 		_putchar('\n');
 	}
