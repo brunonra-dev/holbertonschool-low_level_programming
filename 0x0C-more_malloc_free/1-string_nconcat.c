@@ -46,7 +46,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	for (j = 0; j < s2_len; j++)
 		con_str[j + s1_len] = s2[j];
-	
+
 	con_str[j + s1_len] = '\0';
 
 	return (con_str);
