@@ -8,9 +8,7 @@
 
 void print_dog(struct dog *d)
 {
-	if (!d)
-		putchar('\0');
-	else
+	if (d)
 	{
 		if (d->name)
 			printf("Name: %s\n", d->name);
