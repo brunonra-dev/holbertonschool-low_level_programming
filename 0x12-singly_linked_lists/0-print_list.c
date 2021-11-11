@@ -1,6 +1,3 @@
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
 #include "lists.h"
 
 /**
@@ -12,7 +9,7 @@
  */
 size_t print_list(const list_t *h)
 {
-	int numb_node = 0;
+	size_t numb_node = 0;
 
 	if (!h)
 		return (0);
