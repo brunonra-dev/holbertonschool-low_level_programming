@@ -1,0 +1,31 @@
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include "lists.h"
+
+/**
+ * print_list - print linked list
+ *
+ * @h: pointer to list_t
+ *
+ * Return: number of nodes
+ */
+size_t print_list(const list_t *h)
+{
+	size_t numb_node = 0;
+
+	if (!h)
+		return (0);
+
+	while (!h->next)
+	{
+		if (!h->str)
+			printf("[0] (nil)");
+		else
+			printf("[%d] %s", h->len, h->str);
+
+		numb_node += 1;
+	}
+
+	return (numb_node);
+}
