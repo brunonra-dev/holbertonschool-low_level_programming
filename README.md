@@ -1,6 +1,8 @@
 # Holbertonschool Low Level Programming
 Holbertonschool low level programming course.
 
+## Low-level programming & Algorithm - Hatching out
+
 **0x00 C - Hello, World**
 
 Files:
@@ -131,5 +133,48 @@ Files:
 - 3-alloc_grid.c
 - 4-free_grid.c
 
+**0x0C. C - More malloc, free**
 
+- 0-malloc_checked.c
+- 1-string_nconcat.c
+- 2-calloc.c
+- 3-array_range.c
+
+**0x0E. C - Structures, typedef**
+
+- dog.h
+- 1-init_dog.c
+- 2-print_dog.c
+- 4-new_dog.c
+- 5-free_dog.c
+
+**0x0D. C - Preprocessor**
+
+- 0-object_like_macro.h
+- 1-pi.h
+- 2-main.c
+- 3-function_like_macro.h
+- 4-sum.h
+
+**0x0F. C - Function pointers**
+
+- 0-print_name.c
+- 1-array_iterator.c
+- 2-int_index.c
+- 3-main.c, 3-op_functions.c, 3-get_op_func.c, 3-calc.h
+
+**0x10. C - Variadic functions**
+
+- 0-sum_them_all.c
+- 1-print_numbers.c
+- 2-print_strings.c
+- 3-print_all.c
+
+**0x11. C - printf**
+
+[Printf Project](https://github.com/Ouyei/printf)
+
+## Low-level programming & Algorithm - Data structures and Algorithms
+
+**0x12. C - Singly linked lists**
 Created by Bruno Rodríguez | [Linkedin](https://www.linkedin.com/in/brunonra/)
