@@ -177,4 +177,6 @@ Files:
 ## Low-level programming & Algorithm - Data structures and Algorithms
 
 **0x12. C - Singly linked lists**
+
+
 Created by Bruno Rodríguez | [Linkedin](https://www.linkedin.com/in/brunonra/)
