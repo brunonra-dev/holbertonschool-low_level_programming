@@ -31,6 +31,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		tmp = new_node;
 		return (tmp);
 	}
+
 	new_node->n = n;
 
 	if (!tmp)
@@ -50,5 +51,5 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	past_node->next = new_node;
 	new_node->next = tmp;
 
-	return (tmp);
+	return (new_node);
 }
