@@ -45,7 +45,8 @@ int main(int ac, char **av)
 			dprintf(2, "Error: Can't read from file %s\n", av[1]);
 			exit(98);
 		}
-		rp = write(file_to, buffer, rp);
+		if (rp > 0)
+			rp = write(file_to, buffer, rp);
 		if (rp == -1)
 		{
 			close_file(file_from);
