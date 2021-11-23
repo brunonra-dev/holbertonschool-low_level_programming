@@ -1,4 +1,5 @@
 #include "main.h"
+void close_file(int file);
 
 /**
  * main - check the code
@@ -11,7 +12,7 @@
 
 int main(int ac, char **av)
 {
-	int rp, cf, file_from, file_to;
+	int rp, file_from, file_to;
 	char buffer[1024];
 
 	if (ac != 3)
@@ -27,9 +28,13 @@ int main(int ac, char **av)
 		exit(98);
 	}
 
-	file_to = open(av[2], O_RDWR | O_CREAT | O_TRUNC,
-			S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH);
-
+	file_to = open(av[2], O_RDWR | O_CREAT | O_TRUNC, 0664);
+	if (file_to == -1)
+	{
+		close_file(file_from);
+		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", av[2]);
+		exit(99);
+	}
 	rp = read(file_from, buffer, 1024);
 
 	rp = write(file_to, buffer, rp);
@@ -38,17 +43,26 @@ int main(int ac, char **av)
 		dprintf(2, "Error: Can't write to %s\n", av[2]);
 		exit(99);
 	}
-	cf = close(file_from);
-	if (cf == -1)
-	{
-		dprintf(2, "Error: Can't close fd %i\n", file_from);
-		exit(100);
-	}
-	cf = close(file_to);
-	if (cf == -1)
-	{
-		dprintf(2, "Error: Can't close fd %i\n", file_to);
-		exit(100);
-	}
+	close_file(file_from);
+	close_file(file_to);
 	return (0);
+}
+
+/**
+ * close_file - close file
+ *
+ * @file: file
+ */
+
+void close_file(int file)
+{
+	int cf;
+
+	cf = close(file);
+
+	if (cf == -1)
+	{
+		dprintf(2, "Error: Can't close fd %i\n", file);
+		exit(100);
+	}
 }
