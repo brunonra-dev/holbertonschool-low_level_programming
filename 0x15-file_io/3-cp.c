@@ -28,7 +28,7 @@ int main(int ac, char **av)
 		exit(98);
 	}
 
-	file_to = open(av[2], O_RDWR | O_CREAT | O_TRUNC, 0664);
+	file_to = open(av[2], O_CREAT | O_TRUNC | O_WRONLY, 0664);
 	if (file_to == -1)
 	{
 		close_file(file_from);
