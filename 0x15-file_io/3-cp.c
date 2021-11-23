@@ -27,7 +27,8 @@ int main(int ac, char **av)
 		exit(98);
 	}
 
-	file_to = open(av[2], O_RDWR | O_CREAT | O_TRUNC, 0664);
+	file_to = open(av[2], O_RDWR | O_CREAT | O_TRUNC,
+			S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH);
 
 	rp = read(file_from, buffer, 1024);
 
@@ -37,7 +38,6 @@ int main(int ac, char **av)
 		dprintf(2, "Error: Can't write to %s\n", av[2]);
 		exit(99);
 	}
-
 	cf = close(file_from);
 	if (cf == -1)
 	{
