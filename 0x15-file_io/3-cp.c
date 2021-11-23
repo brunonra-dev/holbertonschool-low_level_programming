@@ -11,7 +11,7 @@
 
 int main(int ac, char **av)
 {
-	int rp, file_from, file_to;
+	int rp, cf, file_from, file_to;
 	char buffer[1024];
 
 	if (ac != 3)
@@ -27,7 +27,7 @@ int main(int ac, char **av)
 		exit(98);
 	}
 
-	file_to = open(av[2], O_RDWR | O_CREAT | O_TRUNC, 0600);
+	file_to = open(av[2], O_RDWR | O_CREAT | O_TRUNC, 0664);
 
 	rp = read(file_from, buffer, 1024);
 
@@ -38,8 +38,17 @@ int main(int ac, char **av)
 		exit(99);
 	}
 
-	close(file_from);
-	close(file_to);
-
+	cf = close(file_from);
+	if (cf == -1)
+	{
+		dprintf(2, "Error: Can't close fd %i\n", file_from);
+		exit(100);
+	}
+	cf = close(file_to);
+	if (cf == -1)
+	{
+		dprintf(2, "Error: Can't close fd %i\n", file_to);
+		exit(100);
+	}
 	return (0);
 }
