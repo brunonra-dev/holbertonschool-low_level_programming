@@ -46,13 +46,15 @@ int main(int ac, char **av)
 			exit(98);
 		}
 		if (rp > 0)
-			rp = write(file_to, buffer, rp);
-		if (rp == -1)
 		{
-			close_file(file_from);
-			close_file(file_to);
-			dprintf(2, "Error: Can't write to %s\n", av[2]);
-			exit(99);
+			rp = write(file_to, buffer, rp);
+			if (rp == -1)
+			{
+				close_file(file_from);
+				close_file(file_to);
+				dprintf(2, "Error: Can't write to %s\n", av[2]);
+				exit(99);
+			}
 		}
 	}
 	close_file(file_from);
