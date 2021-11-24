@@ -2,7 +2,7 @@
 void close_file(int file);
 
 /**
- * main - check the code
+ * main - copies the content of a file to another file
  *
  * @ac: argument count
  * @av: arguments
