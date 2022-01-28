@@ -32,8 +32,9 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	if (!new_item)
 		return (0);
 
-	item->key = strdup(key);
-	item->value = strdup(value);
+	new_item->key = strdup(key);
+	new_item->value = strdup(value);
+
 	new_item->next = ht->array[i];
 	ht->array[i] = new_item;
 
