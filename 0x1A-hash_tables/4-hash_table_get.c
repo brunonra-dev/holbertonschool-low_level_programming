@@ -17,10 +17,12 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 	if (!ht || !key || !item)
 		return (NULL);
 
-	while (strcmp(key, item->key) != 0)
+	while (item)
 	{
+		if (!strcmp(key, item->key))
+			return (item->value);
 		item = item->next;
 	}
 
-	return (item->value);
+	return (NULL);
 }
