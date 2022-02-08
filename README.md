@@ -1,4 +1,7 @@
+<img src="https://blog.holbertonschool.com/wp-content/uploads/2019/04/instagram_feed180-1024x1024.jpg" width=200px>
+
 # Holbertonschool Low Level Programming
+
 Holbertonschool low level programming course.
 
 ## Low-level programming & Algorithm - Hatching out
