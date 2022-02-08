@@ -3,9 +3,7 @@ Holbertonschool low level programming course.
 
 ## Low-level programming & Algorithm - Hatching out
 
-**0x00 C - Hello, World**
-
-Files:
+### [![folder](https://img.icons8.com/fluency/19/000000/folder-invoices--v2.png) 0x00-hello_world](https://github.com/brunonra-dev/holbertonschool-low_level_programming/tree/main/0x00-hello_world)
 
 - 0-preprocessor
 - 1-compiler
@@ -16,7 +14,7 @@ Files:
 - 6-size.c
 - 100-intel
 
-**0x01. C - Variables, if, else, while**
+### [![folder](https://img.icons8.com/fluency/19/000000/folder-invoices--v2.png) 0x01-variables_if_else_while](https://github.com/brunonra-dev/holbertonschool-low_level_programming/tree/main/0x01-variables_if_else_while)
 
 - 0-positive_or_negative.c
 - 1-last_digit.c
@@ -31,7 +29,7 @@ Files:
 - 100-print_comb3.c
 - 101-print_comb4.c
 
-**0x02. Functions Nested Loops**
+### [![folder](https://img.icons8.com/fluency/19/000000/folder-invoices--v2.png) 0x02-functions_nested_loops](https://github.com/brunonra-dev/holbertonschool-low_level_programming/tree/main/0x02-functions_nested_loops)
 
 - 0-putchar.c
 - 1-alphabet.c
@@ -46,13 +44,13 @@ Files:
 - 10-add.c
 - 11-print_to_98.c
 
-**0x03. Debugging**
+### [![folder](https://img.icons8.com/fluency/19/000000/folder-invoices--v2.png) 0x03-debugging](https://github.com/brunonra-dev/holbertonschool-low_level_programming/tree/main/0x03-debugging)
 
 - 0-main.c
 - 1-main.c
 - 2-largest_number.c
 
-**0x04. More Functions Nested Loops**
+### [![folder](https://img.icons8.com/fluency/19/000000/folder-invoices--v2.png) 0x04-more_functions_nested_loops](https://github.com/brunonra-dev/holbertonschool-low_level_programming/tree/main/0x04-more_functions_nested_loops)
 
 - 0-isupper.c
 - 1-isdigit.c
@@ -66,7 +64,7 @@ Files:
 - 9-fizz_buzz.c
 - 10-print_triangle.c
 
-**0x05. C - Pointers, arrays and strings** 
+### [![folder](https://img.icons8.com/fluency/19/000000/folder-invoices--v2.png) 0x05-pointers_arrays_strings](https://github.com/brunonra-dev/holbertonschool-low_level_programming/tree/main/0x05-pointers_arrays_strings)
 
 - 0-reset_to_98.c
 - 1-swap.c
@@ -80,7 +78,7 @@ Files:
 - 9-strcpy.c
 - 100-atoi.c
 
-**0x06. C - More pointers, arrays and strings**
+### [![folder](https://img.icons8.com/fluency/19/000000/folder-invoices--v2.png) 0x06-pointers_arrays_strings](https://github.com/brunonra-dev/holbertonschool-low_level_programming/tree/main/0x06-pointers_arrays_strings)
 
 - 0-strcat.c
 - 1-strncat.c
@@ -91,7 +89,7 @@ Files:
 - 6-cap_string.c
 - 7-leet.c
 
-**0x07. C - Even more pointers, arrays and strings**
+### [![folder](https://img.icons8.com/fluency/19/000000/folder-invoices--v2.png) 0x07-pointers_arrays_strings](https://github.com/brunonra-dev/holbertonschool-low_level_programming/tree/main/0x07-pointers_arrays_strings)
 
 - 0-memset.c
 - 1-memcpy.c
@@ -102,7 +100,7 @@ Files:
 - 7-print_chessboard.c
 - 8-print_diagsums.c
 
-**0x08. C - Recursion**
+### [![folder](https://img.icons8.com/fluency/19/000000/folder-invoices--v2.png) 0x08-recursion](https://github.com/brunonra-dev/holbertonschool-low_level_programming/tree/main/0x08-recursion)
 
 - 0-puts_recursion.c
 - 1-print_rev_recursion.c
@@ -112,12 +110,12 @@ Files:
 - 5-sqrt_recursion.c
 - 6-is_prime_number.c
 
-**0x09. C - Static libraries**
+### [![folder](https://img.icons8.com/fluency/19/000000/folder-invoices--v2.png) 0x09-static_libraries](https://github.com/brunonra-dev/holbertonschool-low_level_programming/tree/main/0x09-static_libraries)
 
 - libmy.a
 - create_static_lib.sh
 
-**0x0A. C - argc, argv**
+### [![folder](https://img.icons8.com/fluency/19/000000/folder-invoices--v2.png) 0x0A-argc_argvs](https://github.com/brunonra-dev/holbertonschool-low_level_programming/tree/main/0x0A-argc_argv)
 
 - 0-whatsmyname.c
 - 1-args.c
@@ -125,7 +123,7 @@ Files:
 - 3-mul.c
 - 4-add.c
 
-**0x0B. C - malloc, free**
+### [![folder](https://img.icons8.com/fluency/19/000000/folder-invoices--v2.png) 0x0B-malloc_free](https://github.com/brunonra-dev/holbertonschool-low_level_programming/tree/main/0x0B-malloc_free)
 
 - 0-create_array.c
 - 1-strdup.c
@@ -133,14 +131,14 @@ Files:
 - 3-alloc_grid.c
 - 4-free_grid.c
 
-**0x0C. C - More malloc, free**
+### [![folder](https://img.icons8.com/fluency/19/000000/folder-invoices--v2.png) 0x0C-more_malloc_free](https://github.com/brunonra-dev/holbertonschool-low_level_programming/tree/main/0x0C-more_malloc_free)
 
 - 0-malloc_checked.c
 - 1-string_nconcat.c
 - 2-calloc.c
 - 3-array_range.c
 
-**0x0E. C - Structures, typedef**
+### [![folder](https://img.icons8.com/fluency/19/000000/folder-invoices--v2.png) 0x0D-preprocessor](https://github.com/brunonra-dev/holbertonschool-low_level_programming/tree/main/0x0D-preprocessor)
 
 - dog.h
 - 1-init_dog.c
@@ -148,7 +146,7 @@ Files:
 - 4-new_dog.c
 - 5-free_dog.c
 
-**0x0D. C - Preprocessor**
+### [![folder](https://img.icons8.com/fluency/19/000000/folder-invoices--v2.png) 0x0E-structures_typedef](https://github.com/brunonra-dev/holbertonschool-low_level_programming/tree/main/0x0E-structures_typedef)
 
 - 0-object_like_macro.h
 - 1-pi.h
@@ -156,27 +154,27 @@ Files:
 - 3-function_like_macro.h
 - 4-sum.h
 
-**0x0F. C - Function pointers**
+### [![folder](https://img.icons8.com/fluency/19/000000/folder-invoices--v2.png) 0x0F-function_pointers](https://github.com/brunonra-dev/holbertonschool-low_level_programming/tree/main/0x0F-function_pointers)
 
 - 0-print_name.c
 - 1-array_iterator.c
 - 2-int_index.c
 - 3-main.c, 3-op_functions.c, 3-get_op_func.c, 3-calc.h
 
-**0x10. C - Variadic functions**
+### [![folder](https://img.icons8.com/fluency/19/000000/folder-invoices--v2.png) 0x10-variadic_functions](https://github.com/brunonra-dev/holbertonschool-low_level_programming/tree/main/0x10-variadic_functions)
 
 - 0-sum_them_all.c
 - 1-print_numbers.c
 - 2-print_strings.c
 - 3-print_all.c
 
-**0x11. C - printf**
+### [![folder](https://img.icons8.com/fluency/19/000000/folder-invoices--v2.png) Printf Project](https://github.com/Ouyei/printf)
 
 [Printf Project](https://github.com/Ouyei/printf)
 
 ## Low-level programming & Algorithm - Data structures and Algorithms
 
-**0x12. C - Singly linked lists**
+### [![folder](https://img.icons8.com/fluency/19/000000/folder-invoices--v2.png) 0x12-singly_linked_lists](https://github.com/brunonra-dev/holbertonschool-low_level_programming/tree/main/0x12-singly_linked_lists)
 
 - 0-print_list.c
 - 1-list_len.c
@@ -184,12 +182,59 @@ Files:
 - 3-add_node_end.c
 - 4-free_list.c
 
-**0x13. C - More singly linked lists**
+### [![folder](https://img.icons8.com/fluency/19/000000/folder-invoices--v2.png) 0x13-more_singly_linked_lists](https://github.com/brunonra-dev/holbertonschool-low_level_programming/tree/main/0x13-more_singly_linked_lists)
 
 - 0-print_listint.c
 - 1-listint_len.c
 - 2-add_nodeint.c
 - 3-add_nodeint_end.c
 - 4-free_listint.c
+
+### [![folder](https://img.icons8.com/fluency/19/000000/folder-invoices--v2.png) 0x14-bit_manipulation](https://github.com/brunonra-dev/holbertonschool-low_level_programming/tree/main/0x14-bit_manipulation)
+
+- 0-binary_to_uint.c
+- 1-print_binary.c
+- 2-get_bit.c
+- 3-set_bit.c
+- 4-clear_bit.c
+- 5-flip_bits.c
+
+### [![folder](https://img.icons8.com/fluency/19/000000/folder-invoices--v2.png) 0x15-file_io](https://github.com/brunonra-dev/holbertonschool-low_level_programming/tree/main/0x15-file_io)
+
+- 0-read_textfile.c
+- 1-create_file.c
+- 2-append_text_to_file.c
+- 3-cp.c
+- 100-elf_header.c
+
+### [![folder](https://img.icons8.com/fluency/19/000000/folder-invoices--v2.png) 0x17-doubly_linked_lists](https://github.com/brunonra-dev/holbertonschool-low_level_programming/tree/main/0x17-doubly_linked_lists)
+
+- 0-print_dlistint.c
+- 1-dlistint_len.c
+- 2-add_dnodeint.c
+- 3-add_dnodeint_end.c
+- 4-free_dlistint.c
+- 5-get_dnodeint.c
+- 6-sum_dlistint.c
+- 102-result
+
+### [![folder](https://img.icons8.com/fluency/19/000000/folder-invoices--v2.png) 0x18-dynamic_libraries](https://github.com/brunonra-dev/holbertonschool-low_level_programming/tree/main/0x18-dynamic_libraries)
+
+- 1-create_dynamic_lib.sh
+- 100-operations.so
+- libdynamic.so
+
+### [![folder](https://img.icons8.com/fluency/19/000000/folder-invoices--v2.png) 0x1A-hash_tables](https://github.com/brunonra-dev/holbertonschool-low_level_programming/tree/main/0x1A-hash_tables)
+
+- 0-hash_table_create.c
+- 1-djb2.c
+- 2-key_index.c
+- 3-hash_table_set.c
+- 4-hash_table_get.c
+- 5-hash_table_print.c
+- 6-hash_table_delete.c
+- hash_tables.h
+
+
 
 Created by Bruno Rodríguez | [Linkedin](https://www.linkedin.com/in/brunonra/)
