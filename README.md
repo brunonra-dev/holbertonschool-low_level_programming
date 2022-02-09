@@ -171,7 +171,7 @@ Holbertonschool low level programming course.
 - 2-print_strings.c
 - 3-print_all.c
 
-### [![folder](https://img.icons8.com/fluency/19/000000/documents-folder--v2.png) Printf Project](https://github.com/Ouyei/printf)
+### [![folder](https://img.icons8.com/fluency/19/000000/book.png") Printf Project](https://github.com/Ouyei/printf)
 
 ## Low-level programming & Algorithm - Data structures and Algorithms
 
