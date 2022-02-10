@@ -2,7 +2,7 @@
 
 # Holbertonschool Low Level Programming
 
-Holbertonschool low level programming course.
+In this repository are all the projects for low level of Holberton School
 
 ## Low-level programming & Algorithm - Hatching out
 
