@@ -1,3 +1,2 @@
-#hola
 all: main.c school.c
 	gcc -Wall -g -o school main.c school.c
